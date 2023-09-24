@@ -1,27 +1,75 @@
 body {
-    height: 1000px;
-}
-/* .style-header {
-    background-color: #1F2937;
-    color:#F9FAF8;
-    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-color: black;
+    margin: 0px;
     display: flex;
-    height: 500px;
-} */
+}
 
 .header {
-    width: 1135px;
     background-color: #1F2937;
     color:#F9FAF8;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    height: 500px;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 1400px;
+    margin: 0px auto  0px auto;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.div-logo {
+    display: flex;
+    height: 50px;
+    flex: 0 1 1150px;
+    align-items: center;
+    margin: 30px auto;
+}
+
+ul {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none; 
+}
+
+
+.div-text {
+    display: flex;
+    flex: 2 1 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.container-text {
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-left: auto;
+    height: 300px;
+    /* justify-content: flex-start; */
+    /* align-self:flex-start;
+    margin-left: auto; */
+    /* flex-basis: 500px; */
+    width: 500px;
+} 
+
+h1 {
+    align-self: flex-start;
 }
 
 .header-title {
+    display: flex;
     font-size: 48px;
     font-weight: bold;
 }
+
 
 .links,
 .text-header { 
@@ -29,8 +77,14 @@ body {
     color: #E5E7EB;
 }
 
+
 .div-img {
     background-color:#7a8491;
-    height:230px;
-    width: 350px;
+    height:250px;
+    width: 550px;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+/* I added new positions and alignments with the flex properties, it's have  within of the header, on its elements */
