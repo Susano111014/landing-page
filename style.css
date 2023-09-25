@@ -49,25 +49,16 @@ a {
 }
 
 .container-text {
-    /* display: flex; */
-    /* flex-direction: column; */
     margin-left: auto;
     height: 300px;
-    /* justify-content: flex-start; */
-    /* align-self:flex-start;
-    margin-left: auto; */
-    /* flex-basis: 500px; */
     width: 500px;
 } 
 
-h1 {
-    align-self: flex-start;
-}
 
 .header-title {
     display: flex;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 
@@ -75,8 +66,17 @@ h1 {
 .text-header { 
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 800;
 }
 
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8%;
+    width: 100px;
+    height: 30px;
+    border:2px #3882F6 solid;
+}
 
 .div-img {
     background-color:#7a8491;
@@ -87,4 +87,5 @@ h1 {
     margin-left: auto;
 }
 
-/* I added new positions and alignments with the flex properties, it's have  within of the header, on its elements */
+/*second section of the page*/
+
