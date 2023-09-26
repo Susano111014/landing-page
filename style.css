@@ -3,6 +3,7 @@ body {
     background-color: black;
     margin: 0px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -88,4 +89,41 @@ a {
 }
 
 /*second section of the page*/
+.section.two {
+    background-color:white;
+    height: 500px;
+    width: 1400px;
+    display: flex; 
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin: auto;  
+    justify-content: center;
+    padding-bottom: 60px;
+    gap: 50px;
+}
 
+    .div2-img {
+        /* display: flex; */
+        height: 200px;
+        width: 200px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+
+    }
+
+    .images {
+        /* display: flex; */
+        border: 3px solid #930101;
+        width: 200px;
+        height: 200px;
+    }
+
+    .Title.dos {
+        width: 1400PX;
+        height: 50px;
+        text-align: center;
+        font-size: 36px;
+        color: #1F2937;
+        padding-bottom: 0px;
+        margin: 60px auto 0px auto; 
+    }
