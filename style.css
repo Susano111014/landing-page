@@ -127,3 +127,40 @@ a {
         padding-bottom: 0px;
         margin: 60px auto 0px auto; 
     }
+
+    /* Section three */
+
+    .section-three {
+        height: 500px;
+        width: 1400px;
+        margin: auto;
+        background-color: #E5E7EB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        flex-wrap: wrap;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .grey {
+        width: 1000px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .phrase {
+        color: black;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    p.cita {
+        align-self:flex-end;
+        padding: 0px;
+        padding-left: 785px;
+        font-size: 22px;
+        font-weight: 800;
+        font-style: italic;
+    }
