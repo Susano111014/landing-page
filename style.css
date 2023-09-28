@@ -1,9 +1,9 @@
 body {
-    height: 100vh;
+    height: 100%;
     background-color: black;
     margin: 0px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .header {
@@ -12,28 +12,28 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 75vh;
     width: 1400px;
-    margin: 0px auto  0px auto;
-    justify-content: center;
-    align-items:flex-start;
 }
 
 .div-logo {
     display: flex;
-    height: 50px;
-    flex: 0 1 1150px;
+    height: 100px;
     align-items: center;
-    margin: 30px auto;
+    margin: 0px auto;
+    flex: 0.43 1 auto;
+    justify-content: space-between;
 }
 
 ul {
-    flex: 1 1 auto;
+     flex: 1 1 500px; 
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
     list-style-type: none;
     justify-content: flex-end;
+    margin: 0%;
+    padding: 0px;
 }
 
 a {
@@ -41,23 +41,21 @@ a {
 }
 
 
-.div-text {
-    display: flex;
-    flex: 2 1 0;
+.div-header {
+    flex: 1 1 auto;
+    display: flex;  
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 100px;
-}
+    row-gap: 15px;
+} 
 
 .container-text {
-    margin-left: auto;
-    height: 300px;
-    width: 500px;
+    flex-basis: 450px;
 } 
 
 
 .header-title {
-    display: flex;
     font-size: 48px;
     font-weight: 800;
 }
@@ -65,45 +63,43 @@ a {
 
 .links,
 .text-header { 
-    font-size: 18px;
+     font-size: 18px;
     color: #E5E7EB;
-    font-weight: 800;
-}
+    font-weight: 950;
+} 
 
 .sign-up {
     background-color: #3882F6;
     color: white;
-    border-radius: 8%;
+    border-radius: 8px;
     width: 100px;
     height: 30px;
-    border:2px #3882F6 solid;
+    border: #3882F6 solid;
 }
 
 .div-img {
     background-color:#7a8491;
     height:250px;
-    width: 550px;
+    flex-basis: 450px;
     align-self: flex-start;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
 
 /*second section of the page*/
-.section.two {
+/* .section.two {
     background-color:white;
     height: 500px;
     width: 1400px;
     display: flex; 
-    /* flex-direction: column; */
     flex-wrap: wrap;
-    margin: auto;  
     justify-content: center;
     padding-bottom: 60px;
     gap: 50px;
 }
 
     .div2-img {
-        /* display: flex; */
+
         height: 200px;
         width: 200px;
         font-family: 'Roboto', sans-serif;
@@ -112,7 +108,7 @@ a {
     }
 
     .images {
-        /* display: flex; */
+    
         border: 3px solid #930101;
         width: 200px;
         height: 200px;
@@ -128,12 +124,13 @@ a {
         margin: 60px auto 0px auto; 
     }
 
-    /* Section three */
+    Section three
 
     .section-three {
         height: 500px;
-        width: 1400px;
-        margin: auto;
+        flex-basis: 1400px;
+        min-width: 0px;
+        flex-shrink: 2;
         background-color: #E5E7EB;
         display: flex;
         justify-content: center;
@@ -165,6 +162,47 @@ a {
         font-style: italic;
     }
 
-    /* Section four */
+    Section four
+
+    .section-four {
+        background-color: white;
+        width: 1400px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         font-family:'Roboto', sans-serif;
+    }
+
+    .spam-div {
+        flex-shrink: 1;
+        display: flex;
+        background-color: #3882F6;
+        border-radius: 10px;
+        color: white;
+        width: 900px;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .short span {
+        font-size: 24px;
+        font-weight: 950;
+        display: block;
+    }
+
+    .short {
+        flex-shrink: 2;
+        font-weight: 500;
+        font-size: 18px;
+        min-width: 0px;
+    }
+
+    .sign-up.dos {
+        border: 1px white solid;
+    } */
 
     
