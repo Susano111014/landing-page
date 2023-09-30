@@ -1,10 +1,15 @@
+* {
+   box-sizing: border-box;
+}
+
 body {
     height: 100%;
     background-color: black;
     margin: 0px;
     display: flex;
     justify-content: center;
-}
+    flex-wrap: wrap;
+} 
 
 .header {
     background-color: #1F2937;
@@ -82,39 +87,34 @@ a {
     height:250px;
     flex-basis: 450px;
     align-self: flex-start;
-    /* margin-right: auto;
-    margin-left: auto; */
 }
 
 /*second section of the page*/
-/* .section.two {
+    .section-two {
     background-color:white;
-    height: 500px;
-    width: 1400px;
     display: flex; 
+    max-width: 1400px;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 60px;
-    gap: 50px;
-}
-
-    .div2-img {
-
-        height: 200px;
-        width: 200px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 900;
-        margin-bottom: 100px;
+    gap: 60px;
     }
+
+
 
     .images {
-    
+        min-width: 0px;
+        min-height: 0px;
+        width: 250px;
+        height: 300px;
         border: 3px solid #930101;
-        width: 200px;
-        height: 200px;
     }
 
-    .Title.dos {
+    
+
+    
+     .Title.dos {
         width: 1400PX;
         height: 50px;
         text-align: center;
@@ -122,11 +122,11 @@ a {
         color: #1F2937;
         padding-bottom: 0px;
         margin: 60px auto 0px auto; 
-    }
+    } 
 
-    Section three
+    /* Section three */
 
-    .section-three {
+    /* .section-three {
         height: 500px;
         flex-basis: 1400px;
         min-width: 0px;
@@ -203,6 +203,6 @@ a {
 
     .sign-up.dos {
         border: 1px white solid;
-    } */
+    } */ 
 
     
