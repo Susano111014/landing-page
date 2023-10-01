@@ -38,12 +38,13 @@ ul {
     list-style-type: none;
     justify-content: flex-end;
     margin: 0%;
-    padding: 0px;
+    padding-left: 50px;
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
 }
+
 
 
 .div-header {
@@ -126,66 +127,75 @@ a {
 
     /* Section three */
 
-    /* .section-three {
-        height: 500px;
-        flex-basis: 1400px;
-        min-width: 0px;
-        flex-shrink: 2;
+         .section-three {
+        /* height: auto; */
+        max-width: 1400px;
+        width: 100%;
         background-color: #E5E7EB;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 30px;
-        flex-wrap: wrap;
         font-family: 'Roboto', sans-serif;
+        flex-wrap: wrap;
     }
 
-    .grey {
-        width: 1000px;
+    /* .grey {
+        max-width: 1000px;
+        width: 100%;
+        flex-grow: 1;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
 
-    .phrase {
+    p.phrase {
+        padding: 0px 5px;
+        flex-basis: 850px;
         color: black;
         font-style: italic;
         font-weight: 400;
+        /* min-width: 0px; */
     }
 
     p.cita {
-        align-self:flex-end;
-        padding: 0px;
-        padding-left: 785px;
+        padding: 0px 5px;
+        flex-basis: 850px;
+        align-self: flex-end;
         font-size: 22px;
         font-weight: 800;
         font-style: italic;
-    }
+        /* min-width: 0px; */
+        text-align: end;    
+    } 
 
-    Section four
+    /* Section four */
 
     .section-four {
         background-color: white;
-        width: 1400px;
-        height: 300px;
+        max-width: 1400px;
+        width: 100%;
         display: flex;
+        flex-wrap: wrap;
+        height: 250px;
         justify-content: center;
         align-items: center;
          font-family:'Roboto', sans-serif;
-    }
+    } 
 
     .spam-div {
-        flex-shrink: 1;
         display: flex;
         background-color: #3882F6;
         border-radius: 10px;
         color: white;
         width: 900px;
-        height: 150px;
+        height: 50%;
+        max-height: 350px;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: 50px;
+        column-gap: 50px;
+        padding: 0px;
     }
 
     .short span {
@@ -194,15 +204,15 @@ a {
         display: block;
     }
 
-    .short {
-        flex-shrink: 2;
+    p.short {
         font-weight: 500;
         font-size: 18px;
-        min-width: 0px;
+        padding: 0px;
+        margin: 0px;
     }
 
     .sign-up.dos {
         border: 1px white solid;
-    } */ 
+    } 
 
     
